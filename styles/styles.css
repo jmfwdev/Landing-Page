@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+	background-color: #6de2b7;
+	line-height: 1.5;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	
+}
+
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+header ul {
+	list-style-type: none;
+	display: flex;
+}
+
+header img {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	padding-left: .5rem;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: .01rem solid;
+	box-shadow: 0 0 .5rem black;
+	position: relative;
+}
+
+.site-links {
+	display: block;
+	justify-content: flex-end;
+}
+
+header a {
+	padding-right: .5rem;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/* Main
+--------------------------------------------- */
+
+h1 {
+	padding: 6rem;
+	background-color: white;
+	margin: 0 auto 5rem;
+	padding: 10rem;
+	border-bottom: .01rem solid;
+	box-shadow: 0 0 .5rem black;
+}
+
+h2 {
+	background-color: #248098;
+	margin: auto 20% 3rem;
+	box-shadow: .625rem .625rem #4c9e80;
+	color: white;
+}
+
+.about-me p {
+	margin: auto 10% 5rem;
+}
+/* Services Section */
+
+
+/* Testimonia;s Section */
+
+
+/* Footer
+--------------------------------------------- */
