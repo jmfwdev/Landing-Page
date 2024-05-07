@@ -34,8 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-	display: flex;
-	justify-content: center;
+
 }
 
 p {
@@ -145,22 +144,44 @@ h1 {
 	padding: 10rem;
 	border-bottom: .01rem solid;
 	box-shadow: 0 0 .5rem black;
+	display: flex;
+	justify-content: center;
 }
 
 h2 {
 	background-color: #248098;
-	margin: auto 20% 3rem;
+	margin: auto 4rem 3rem;
 	box-shadow: .625rem .625rem #4c9e80;
 	color: white;
+	display: flex;
+	justify-content: center;
 }
+
+/* About Me Section */
 
 .about-me p {
 	margin: auto 10% 5rem;
 }
-/* Services Section */
 
+/* Projects Section */
 
-/* Testimonia;s Section */
+.section-projects {
+	display: block;
+	text-align: center;
+}
+
+.section-projects img {
+	max-width: 20rem;
+	margin: 2rem;
+}
+
+.title-section-projects {
+	text-align: center;
+}
+
+.project-links {
+	text-decoration: none;
+}
 
 
 /* Footer
