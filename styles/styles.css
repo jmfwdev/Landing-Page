@@ -23,7 +23,7 @@
 /* Typography
 --------------------------------------------- */
 body {
-	background-color: #515CFF;
+	background-color: #515dffc6;
 	line-height: 1.5;
 	font-family: 'Times New Roman', Times, serif;
 }
@@ -72,12 +72,17 @@ a {
 }
 
 a:visited {
+	color: white;
 	
 }
+
 
 a:hover {
 	color: #F15A24;
 	background-color: lightblue;
+	border: solid #8b3313ca;
+	border-radius: 1.5625rem;
+	padding: .7rem;
 	
 }
 
@@ -111,7 +116,7 @@ header ul {
 
 header img {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	width: 50%;
 	padding-left: .5rem;
@@ -123,8 +128,11 @@ header {
 	justify-content: space-between;
 	border-bottom: .01rem gray;
 	box-shadow: 0 0 .5rem black;
-	position: relative;
-	background-color: #ffffff;
+	background-color: #f15b24ca;
+}
+
+.logo-image {
+
 }
 
 .site-links {
@@ -137,9 +145,10 @@ header {
 }
 
 
-header a {
+.site-navigation a {
 	text-decoration: none;
-	color: black;
+	color: white;
+	text-align: center;
 }
 
 header ul a {
@@ -167,9 +176,9 @@ h1 {
 }
 
 h2 {
-	background-color: #F15A24;
+	background-color: #f15b24ca;
 	margin: auto 4rem 3rem;
-	box-shadow: .625rem .625rem #772e13;
+	box-shadow: .625rem .625rem #772e13ba;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -196,21 +205,28 @@ h2 {
 	justify-content: center;
 	display: block;
 	width: 18.75rem;
-	border: #248098;
-	box-shadow: 0 0 .30rem #248098;
+	border: #f15b24ca;
+	border-radius: 1.5625rem;
+	box-shadow: 0 0 .30rem #f15b24ca;
 	margin: 1rem auto;
-	background-color: #248098;
+	background-color: #f15b24ca;
 
 }
 
 .section-projects img {
+	border: #f15b24ca;
+	border-radius: 1.5625rem;
 
 
 }
 
+
 .project-links {
 	text-decoration: none;
-	color: black;
+	color: white;
+	border: .0625rem solid #a63e18ca;
+	border-radius: 1.5625rem;
+	padding: 0.75rem;
 }
 
 .projects {
@@ -221,13 +237,27 @@ h2 {
 
 }
 
+/* Contacts Section */
+
+.contact-i ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	padding: 0 2rem;
+	text-align: center;
+}
+
+.contact-i h2 {
+	margin-top: 2.5rem;
+}
+
 
 /* Footer
 --------------------------------------------- */
 
 footer {
 	text-align: center;
-	background-color: #ffffff;
+	background-color: lightgray;
 	padding: 1rem;
 	margin-top: 2rem;
 }
