@@ -77,7 +77,7 @@ a:visited {
 }
 
 
-a:hover {
+.site-navigation a:hover {
 	color: #F15A24;
 	background-color: lightblue;
 	border: solid #8b3313ca;
@@ -85,6 +85,8 @@ a:hover {
 	padding: .7rem;
 	
 }
+
+
 
 a:focus {
 	color: #F15A24;
@@ -94,6 +96,18 @@ a:focus {
 a:active {
 	color: #F15A24;
 	
+}
+
+@media (min-width: 50em) {
+	.site-navigation a:hover {
+		color: #F15A24;
+		background-color: lightblue;
+		border: solid #8b3313ca;
+		border-radius: 1.5625rem;
+		padding: 1rem 1.5rem;
+	}
+
+
 }
 
 
@@ -131,13 +145,6 @@ header {
 	background-color: #f15b24ca;
 }
 
-.logo-image {
-
-}
-
-.site-links {
-
-}
 
 .site-navigation {
 	justify-content: center;
@@ -155,6 +162,17 @@ header ul a {
 	padding: 0 .3rem;
 }
 
+@media (min-width: 50em) {
+
+	.site-navigation {
+		justify-content: center;
+	}
+	.site-navigation a {
+		padding: 1rem 1.5rem;
+		font-size: 1.2rem;
+	}
+
+}
 
 
 
@@ -184,6 +202,10 @@ h2 {
 	justify-content: center;
 }
 
+@media (min-width: 50em) {
+
+}
+
 /* About Me Section */
 
 .about-me p {
@@ -195,6 +217,22 @@ h2 {
 	background-position: center;
 	background-size: cover;
 	border-radius: 25px;
+}
+
+@media (min-width: 50em) {
+
+	.about-me p {
+		max-width: 45rem;
+		margin: 3rem auto 10rem;
+	}
+}
+
+@media (min-width: 26.5625em) {
+
+	.about-me h2 {
+		max-width: 27rem;
+		margin: auto auto 3rem;
+	}
 
 }
 
@@ -237,6 +275,15 @@ h2 {
 
 }
 
+@media (min-width: 26.5625em) {
+
+	.project-me {
+		max-width: 27rem;
+		margin: auto auto 3rem;
+	}
+
+}
+
 /* Contacts Section */
 
 .contact-i ul {
@@ -249,6 +296,31 @@ h2 {
 
 .contact-i h2 {
 	margin-top: 2.5rem;
+}
+
+.contact-i a {
+	background-color: aliceblue;
+	color: #515CFF;
+	padding: .5rem;
+	border: #515CFF;
+	border-radius: 25px;
+}
+
+@media (min-width: 26.5625em) {
+
+	.contact-i h2{
+		max-width: 27rem;
+		margin: 5rem auto 3rem;
+	}
+
+	.contact-i {
+		margin-bottom: 10rem;
+	}
+
+	.contact-i ul {
+		margin-top: 4rem;
+	}
+
 }
 
 
