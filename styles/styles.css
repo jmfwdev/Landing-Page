@@ -76,14 +76,18 @@ a:visited {
 }
 
 a:hover {
+	color: #F15A24;
+	background-color: lightblue;
 	
 }
 
 a:focus {
+	color: #F15A24;
 	
 }
 
 a:active {
+	color: #F15A24;
 	
 }
 
@@ -109,7 +113,7 @@ header img {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	width: 40%;
+	width: 50%;
 	padding-left: .5rem;
 }
 
@@ -124,15 +128,24 @@ header {
 }
 
 .site-links {
-	display: block;
-	justify-content: flex-end;
+
 }
 
+.site-navigation {
+	justify-content: center;
+	padding-right: 0.5rem;
+}
+
+
 header a {
-	padding-right: .5rem;
 	text-decoration: none;
 	color: black;
 }
+
+header ul a {
+	padding: 0 .3rem;
+}
+
 
 
 
@@ -166,10 +179,14 @@ h2 {
 
 .about-me p {
 	margin: auto 10% 5rem;
-	border: #6de2b7;
+	border: 2px solid #515CFF;
 	box-shadow: 0 0 .5rem #4c9e80;
 	padding: 1rem;
-	background-color: white;
+	background-image: url(..//images/aboutme-p-bgimage.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px;
+
 }
 
 /* Projects Section */
