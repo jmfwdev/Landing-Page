@@ -35,17 +35,16 @@ h4,
 h5,
 h6 {
 	font-family: 'Titillium Web', 'Times New Roman', Times, serif;
-
 }
 
-p {
+/* p {
 	
-}
+} */
 
 
 /* Elements
 --------------------------------------------- */
-ul {
+/* ul {
 	
 }
 
@@ -63,13 +62,13 @@ figure {
 
 table {
 	
-}
+} */
 
 /* Links
 --------------------------------------------- */
-a {
+/* a {
 	
-}
+} */
 
 a:visited {
 	color: white;
@@ -83,10 +82,7 @@ a:visited {
 	border: solid #8b3313ca;
 	border-radius: 1.5625rem;
 	padding: .7rem;
-	
 }
-
-
 
 a:focus {
 	color: #F15A24;
@@ -114,8 +110,6 @@ a:active {
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
-
-
 
 /*--------------------------------------------------------------
 # Components
@@ -167,14 +161,13 @@ header ul a {
 	.site-navigation {
 		justify-content: center;
 	}
+
 	.site-navigation a {
 		padding: 1rem 1.5rem;
 		font-size: 1.2rem;
 	}
 
 }
-
-
 
 /* Main
 --------------------------------------------- */
@@ -201,10 +194,6 @@ h2 {
 	color: white;
 	display: flex;
 	justify-content: center;
-}
-
-@media (min-width: 50em) {
-
 }
 
 /* About Me Section */
@@ -241,7 +230,6 @@ h2 {
 		max-width: 27rem;
 		margin: auto auto 3rem;
 	}
-
 }
 
 /* Projects Section */
@@ -267,10 +255,7 @@ section .projects {
 .section-projects img {
 	border: #f15b24ca;
 	border-radius: 1.5625rem;
-
-
 }
-
 
 .project-links {
 	text-decoration: none;
@@ -294,7 +279,6 @@ section .projects {
 		max-width: 27rem;
 		margin: auto auto 3rem;
 	}
-
 }
 
 /* Contacts Section */
@@ -333,9 +317,7 @@ section .projects {
 	.contact-i ul {
 		margin-top: 4rem;
 	}
-
 }
-
 
 /* Footer
 --------------------------------------------- */
